@@ -1,0 +1,4 @@
+za/co/wethinkcode/AppTest.class
+za/co/wethinkcode/logintests/TestApi.class
+za/co/wethinkcode/servicetests/ConnectorTest.class
+za/co/wethinkcode/logintests/modeltests/TestLoginModel.class

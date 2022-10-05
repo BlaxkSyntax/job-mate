@@ -1,0 +1,8 @@
+version: "3.9"
+services:
+  web:
+    build: ./web
+    volumes:
+      - ./web:/home/black/show-case-projects/project-jobs/job-mate
+    ports:
+      - "5000:5000"

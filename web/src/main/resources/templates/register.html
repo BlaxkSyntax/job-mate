@@ -1,0 +1,27 @@
+<html
+        xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout" xmlns:th="http://www.w3.org/1999/xhtml"
+        layout:decorate="~{/layout.html}">
+<head></head>
+<body>
+<div layout:fragment="contents">
+    <section class="mid">
+        <main>
+            <div class="form-box">
+                <form action="/register" method="post">
+                    <div>
+                        <h1>job details</h1>
+                    </div>
+                    <input type="text" name="name" id="name" placeholder="enter name">
+                    <input type="text" name="surname" id="surname" placeholder=" enter surname">
+                    <input type="text" name="email" id="email" placeholder="enter email">
+                    <input type="password" name="password" id="password" placeholder="enter password">
+                    <input type="password" name="verify" id="verify" placeholder="varify email">
+                    <input type="number" name="otp" id="otp" placeholder="otp">
+                    <input type="submit" value="Register">
+                </form>
+            </div>
+        </main>
+    </section>
+</div>
+</body>
+</html>

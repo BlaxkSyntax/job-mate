@@ -1,0 +1,10 @@
+za/co/wethinkcode/cv/HandleCv.class
+za/co/wethinkcode/database/job/Query.class
+za/co/wethinkcode/database/job/Memory.class
+za/co/wethinkcode/CvServer.class
+za/co/wethinkcode/database/service/Table.class
+za/co/wethinkcode/database/job/CvMapper.class
+za/co/wethinkcode/database/service/Connector.class
+za/co/wethinkcode/database/model/Cv.class
+za/co/wethinkcode/database/job/Repo.class
+za/co/wethinkcode/database/service/Tablor.class

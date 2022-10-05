@@ -1,0 +1,12 @@
+za/co/wethinkcode/database/model/AuthenticUser.class
+za/co/wethinkcode/database/job/Memory.class
+za/co/wethinkcode/database/model/Register.class
+za/co/wethinkcode/authentication/AuthProcessor.class
+za/co/wethinkcode/database/service/Table.class
+za/co/wethinkcode/database/orm/Query.class
+za/co/wethinkcode/database/service/Connector.class
+za/co/wethinkcode/database/job/Repo.class
+za/co/wethinkcode/database/model/Login.class
+za/co/wethinkcode/database/service/Tablor.class
+za/co/wethinkcode/authentication/HandleAuthentication.class
+za/co/wethinkcode/AuthServer.class

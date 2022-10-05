@@ -1,0 +1,48 @@
+
+/*************responseve media query**************/
+
+@media screen and (max-width:600px) {
+    
+    .mid-top .top-nav .nav-container{
+        position: relative;
+        width: 90%;
+        display: flex;
+        right: 0;
+    }
+
+    .nav-container nav .nav-links{
+        position: absolute;
+        display: block;
+        width: 50%;
+        top: 50px;
+        right: 0;
+        background: linear-gradient(90deg, #26753e, rgb(243, 164, 62));
+        height: calc(100vh - 50px);
+    }
+    .nav-container nav .nav-links div{
+        position: relative;
+        display: block;
+        background: linear-gradient(110deg, #010418);
+    }
+
+    .nav-container .dropdown-nav{
+        position: absolute;
+        display: flex;
+        width: 50%;
+        right: 0;
+        justify-content: flex-end;
+        align-items: flex-end;
+    }
+
+    .nav-container nav .account-links .account{
+        position: relative;
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .top .top-header div h1{
+        font-size: 30px;
+    }
+}

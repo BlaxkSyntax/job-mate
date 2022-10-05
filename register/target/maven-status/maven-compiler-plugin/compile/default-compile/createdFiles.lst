@@ -1,0 +1,9 @@
+za/co/wethinkcode/database/job/Memory.class
+za/co/wethinkcode/database/model/Register.class
+za/co/wethinkcode/database/service/Table.class
+za/co/wethinkcode/register/HandleRegistrations.class
+za/co/wethinkcode/database/orm/Query.class
+za/co/wethinkcode/database/service/Connector.class
+za/co/wethinkcode/database/job/Repo.class
+za/co/wethinkcode/RegisterServer.class
+za/co/wethinkcode/database/service/Tablor.class

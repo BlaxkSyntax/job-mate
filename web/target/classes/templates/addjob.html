@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html
+        xmlns:th="http://www.thymeleaf.org"
+        xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+        layout:decorate="~{/layout.html}">
+<head></head>
+<body>
+    <section class="mid">
+        <div class="contents" layout:fragment="contents">
+            <div class="form-box">
+                <form action="/job" method="post">
+                    <div>
+                        <h1>job details</h1>
+                    </div>
+                    <input type="text" name="position" id="job-position" placeholder="Enter job position">
+                    <input type="text" name="area" id="job-area" placeholder="Enter job area">
+                    <input type="text" name="jobtype" id="job-type" placeholder="Enter job type">
+                    <input type="text" name="jobDescription" id="job-Description" placeholder="Enter job description">
+                    <input type="text" name="responsibilities" id="job-responsibilities" placeholder=" Enter job responsibilities">
+                    <input type="text" name="qualifications" id="job-qualifications" placeholder="Enter job qualifications">
+                    <input type="text" name="benefits" id="job-benefits" placeholder="Enter job benefits">
+                    <input type="text" name="startDate" id="job-post-start" placeholder="Enter job application start date">
+                    <input type="text" name="endDate" id="job-post-end" placeholder="Enter job application end date">
+                    <input type="text" name="applicationtype" id="job-apply-via" placeholder="Enter job application type">
+                    <input type="text" name="contact" id="job-contact" placeholder="Enter job application contact">
+                    <input type="submit" value="Add Job">
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

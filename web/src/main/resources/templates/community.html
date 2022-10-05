@@ -1,0 +1,34 @@
+<html
+        xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout" xmlns:th="http://www.w3.org/1999/xhtml"
+        layout:decorate="~{/layout.html}">
+<head></head>
+<body>
+<div layout:fragment="contents">
+    <section>
+        <div class="comments-container">
+            <main>
+                <div></div>
+                <div class="comments-main-contant">
+                    <section class="commentsList">
+                        <h2>Community</h2>
+                        <p id="comments" th:if="${#lists.isEmpty(comments)}">NO POSTS AVAILABLE</p>
+
+                        <div id="comments" th:unless="${#lists.isEmpty(comments)}">
+                            <th:div class="jobs" th:each="comments,iterStat: ${comments}">
+                                <div >
+                                    <p th:text="${comments.getPost()}"></p>
+                                </div>
+                            </th:div>
+                        </div>
+                    </section>
+                </div>
+                <div></div>
+            </main>
+        </div>
+    </section>
+    <h1>TODO: fix to view for posts</h1>
+    </div>
+</div>
+</body>
+
+</html>

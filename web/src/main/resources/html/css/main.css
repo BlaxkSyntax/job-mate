@@ -1,0 +1,164 @@
+:root{
+    --size-bezel: .4rem;
+}
+
+body{
+    background:  white;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    padding-left: 20px;
+}
+
+.mid{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.contents{
+    position: relative;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.mid main{
+    width: 100%;
+    position: relative;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 300px);
+}
+
+.form-box{
+    width: 300px;
+    background-color: whitesmoke;
+}
+
+.form-box form{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+input{
+    width: 90%;
+    border: none;
+    border-bottom: solid 0.5px red;
+    margin: 5px;
+}
+
+input[type=submit]{
+    border: 0;
+    border-radius: 10px;
+    background-color: rgb(243, 164, 62);
+    width: 80%;
+}
+
+.title{
+    position: sticky; 
+    position: -webkit-sticky;
+    top: 0;
+    height: 200px;
+    width: 100%;
+    background: linear-gradient(110deg, #010418,#26753e, rgb(243, 164, 62));
+}
+
+.title::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 200px;
+    background: rgb(243, 218, 186);
+    clip-path: polygon(100% 30%,-30% 100%,100% 100%);
+}
+
+.title .header-container{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.title .button-container{
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.job-help{
+    display: inline-flex;
+    width: 100%;
+}
+
+.job-type{
+    width: 10%;
+}
+
+.add-job{
+width: 10%;
+}
+
+.job-search{
+    width: 90%;
+    display: inline-flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.job-search form{
+    display: inline-flex;
+}
+
+.jobsList{
+    text-align: center;
+}
+
+.jobs{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-align: center;
+}
+
+.jobs div {
+    display: block;
+    margin: 10px;
+}
+
+.Description container{
+    width: 40%;
+}
+
+.separator{
+    height: 5px;
+    border-bottom: solid rgb(243, 164, 62);
+ }
+
+.CV-infor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 100%;
+    background: linear-gradient(110deg, #010418,#26753e, rgb(243, 164, 62));
+}

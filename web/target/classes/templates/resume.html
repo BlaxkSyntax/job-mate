@@ -1,0 +1,84 @@
+<html
+        xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout" xmlns:th="http://www.w3.org/1999/xhtml"
+        layout:decorate="~{/layout.html}">
+<head></head>
+<body>
+<div layout:fragment="contents">
+    <main>
+        <section>
+            <div class="personal-container">
+                <form action="/resume" method="post">
+                    <label for="name">First name</label>
+                    <input type="text" name="name" id="name">
+                    <label for="surname">Last name</label>
+                    <input type="text" name="surname" id="surname">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email">
+                    <label for="number">Contact number</label>
+                    <input type="number" name="number" id="number">
+                    <label for="address">Address</label>
+                    <input type="text" name="address" id="address">
+                    <label for="zip">zip code</label>
+                    <input type="number" name="zip" id="zip">
+                    <label for="place">City/Town</label>
+                    <input type="text" name="place" id="place">
+                    <input type="button" value="Continue">
+                </form>
+            </div>
+        </section>
+        <section>
+            <div>
+                <form action="/resume" method="post">
+                    <div class="experience">
+                        <label for="job"> Job Title</label>
+                        <input type="text" name="job" id="job">
+                        <label for="city"> City/Town</label>
+                        <input type="text" name="city" id="city">
+                        <label for="employer"> Employer</label>
+                        <input type="text" name="employer" id="employer">
+                        <label for="startDate"> startDate</label>
+                        <input type="date" name="startDate" id="startDate">
+                        <label for="endDate">End Date</label>
+                        <input type="date" name="endDate" id="endDate">
+                    </div>
+                    <div class="education">
+                        <label for="education"> Education</label>
+                        <input type="text" name="education" id="education">
+                        <label for="city"> City/Town</label>
+                        <input type="text" name="city" id="city">
+                        <label for="school"> School</label>
+                        <input type="text" name="school" id="school">
+                        <label for="startDate"> startDate</label>
+                        <input type="date" name="startDate" id="startDate">
+                        <label for="endDate">End Date</label>
+                        <input type="date" name="endDate" id="endDate">
+                    </div>
+                    <div class="hobbies">
+                        <label for="hobby">Hobby</label>
+                        <input type="date" name="endDate" id="endDate">
+                    </div>
+                    <div class="references">
+                        <label for="company">Compant Name</label>
+                        <input type="text" name="company" id="company">
+                        <label for="contactPerson">Contact Person</label>
+                        <input type="text" name="contactPerson" id="contentPerson"><label for="contact">Phone Number</label>
+                        <input type="tel" name="contact" id="contact">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email">
+                    </div>
+                    <div>
+                        <label for="skill">Skill</label>
+                        <input type="text" name="skill" id="skill">
+                        <label for="level">Skill Level</label>
+                        <input type="text" name="level" id="level">
+                    </div>
+                    <div class="make-cv">
+                        <input type="submit" value="Done">
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+</div>
+</body>
+</html>
